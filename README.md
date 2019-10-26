@@ -1,5 +1,7 @@
 # Mini_Project_1_IS117
 
+
+
 Repository = A repository is a central file storage location. It is used by version control systems to store multiple versions of files.
 <br>To create a Git repository users are required to follow these steps are :<br>
 - Once git is installed go in the directory where the files that require version control are located.<br>
@@ -34,3 +36,17 @@ Remote Add / Remove / Show = git-remote - Manage set of tracked repositories.
 Status = The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git <br>
 
 Master Branch = Is the main branch created in Git, it contains code that is available for deployment. The master branch should be updated only when sure that the software is working correctly and its free of critical bugs. <br>
+
+###How does the GitFlow works: 
+
+First of all, what is the Gitflow:
+
+GitFlow is a branching model for Git, created by Vincent Driessen. It has attracted a lot of attention because it is very well suited to collaboration and scaling the development team.<b>
+
+#####Gitflow Example image
+
+![GitHub Logo](images/GitFlowHotfixBranch.png)
+
+#####Link to a complete explanation of [ GitFlow!](http://google.com)
+
+
