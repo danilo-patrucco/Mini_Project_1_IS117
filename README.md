@@ -53,3 +53,13 @@ Command name | Command example | Result
 init | git init | the folder where the git init is executed will be added to a repository.
 add . | git add . | will add all the files inside of a directory to the list of files that require version control
 clone | git clone --reference_repository directory_name | will clone a reference directory into a new directory
+fork | no command, it is clone on server side | fork the repo to allow multiple people to work on them. On GitHub the button fork can be used ---> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/GitHub_Fork_Button.png" width="100">
+branch | git checkout -b branchname | create a new branch with name "branchame", if used with checkout will also move immediately on the branch
+commit | git commit -m "your commit name" | commit the changes that were done on the current branch or master
+merge | git merge branchname | will merge the branch "branchname" into the currently checked out branch 
+checkout | git checkout branchname | will move the HEAD from one branch to the one defined in the checkout command
+push | git push origin master | Use git push to push commits made on your local branch to a remote repository
+pull | git pull origin master | fetches a copy of the master branch from the original repository, and merges it with the current branch you have checked out
+status | git status | the status of the working working directory is displayed
+remove | git rm filename | will remove the file or repo called "filename" from the commit list and the filesystem.
+show | git show | one or more object will be displayed upon request 
