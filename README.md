@@ -1,18 +1,18 @@
 # Mini_Project_1_IS117
 
-###How does the GitFlow works: 
+<h3>How does the GitFlow works:</h3>
 
 First of all, what is the Gitflow:
 
 GitFlow is a branching model for Git, created by Vincent Driessen. It has attracted a lot of attention because it is very well suited to collaboration and scaling the development team.<br>
 
-#####Gitflow Example image
+<h4>Gitflow visual representation:</h4>
 
 ![GitFlow Image](images/GitFlowHotfixBranch.png)
 
-#####Link to a complete explanation of [ GitFlow!](http://google.com)
+<h4>Link to a complete explanation of [ GitFlow!](http://google.com)</h4>
 
-###Definitions
+<h3>Definitions</h3>
 
 Repository = A repository is a central file storage location. It is used by version control systems to store multiple versions of files.
 <br>To create a Git repository users are required to follow these steps are :<br>
