@@ -46,7 +46,7 @@ Status = The git status command displays the state of the working directory and 
 
 Master Branch = Is the main branch created in Git, it contains code that is available for deployment. The master branch should be updated only when sure that the software is working correctly and its free of critical bugs. <br>
 
-###Commands and examples
+<h3>Commands and examples</h3>
 
 Command name | Command example | Result
 ------------ | ------------- | -------------
