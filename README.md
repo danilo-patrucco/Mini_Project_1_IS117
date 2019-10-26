@@ -1,4 +1,13 @@
 # Mini_Project_1_IS117
+<h3>How the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company: </h3>
+
+- Git is a software that allows to handle version control, a way for developer to constantly monitor the deployment and updating of software.
+- Docker is  a container engine which uses the Linux Kernel features like namespaces and control groups to create containers on top of an operating system and automates application deployment on the container.
+- Automated testing is a process that validates if software is functioning appropriately and meeting requirements before it is released into production. This software testing method uses scripted sequences that are executed by testing tools. Automated testing tools execute examinations of the software, report outcomes and compare results with earlier test runs.
+- Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests
+
+All together these software / practices allow a company to constantly monitor and optimize deployment and upgrading of software, reducing the amount of people and time needed to perform tasks.
+<br>The final goal is a complete process atomization and reaching a state of instant development and deployment control.
 
 <h3>How does GitFlow works:</h3>
 

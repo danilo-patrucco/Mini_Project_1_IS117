@@ -2,6 +2,8 @@
   <dictionary name="zantezu">
     <words>
       <w>branchname</w>
+      <w>driessen</w>
+      <w>gitflow</w>
     </words>
   </dictionary>
 </component>
