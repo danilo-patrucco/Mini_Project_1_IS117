@@ -20,25 +20,25 @@ Parallel development means that multiple people can all work on the same project
 
 <h5>Complete GitFlow process</h5>
 New development (new features, non-emergency bug fixes) are built in feature branches<br><br>
-![GitFlow Image](images/feature branch 1.png) <br><br>
+![GitFlow Image1](images/feature branch 1.png) <br><br>
 
 Feature branches are branched off of the develop branch, and finished features and fixes are merged back into the develop branch when they’re ready for release:<br><br>
-![GitFlow Image](images/develop branch 2.png) <br><br>
+![GitFlow Image2](images/develop branch 2.png) <br><br>
 
 When it is time to make a release, a release branch is created off of develop:<br><br>
-![GitFlow Image](images/release branch 3.png) <br><br>
+![GitFlow Image3](images/release branch 3.png) <br><br>
 
 The code in the release branch is deployed onto a suitable test environment, tested, and any problems are fixed directly in the release branch. This deploy -> test -> fix -> redeploy -> retest cycle continues until you’re happy that the release is good enough to release to customers.
 <br>
 <br>
 When the release is finished, the release branch is merged into master and into develop too, to make sure that any changes made in the release branch aren’t accidentally lost by new development.<br><br>
 
-![GitFlow Image](images/release branch merge 4.png) <br>
+![GitFlow Image4](images/release branch merge 4.png) <br>
 
 The master branch tracks released code only. The only commits to master are merges from release branches and hotfix branches.
 <br>Hotfix branches are used to create emergency fixes:
 
-![GitFlow Image](images/GitFlowHotfixBranch.png)
+![GitFlow Image5](images/GitFlowHotfixBranch.png)
 
 They are branched directly from a tagged release in the master branch, and when finished are merged back into both master and develop to make sure that the hotfix isn’t accidentally lost when the next regular release occurs.
 
