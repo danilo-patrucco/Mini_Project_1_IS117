@@ -43,10 +43,6 @@ The master branch tracks released code only. The only commits to master are merg
 
 They are branched directly from a tagged release in the master branch, and when finished are merged back into both master and develop to make sure that the hotfix isn’t accidentally lost when the next regular release occurs.
 
-<h4>Link to a complete explanation of [ GitFlow!](http://google.com)</h4>
-
-
-
 <h3>Definitions</h3>
 
 <h5>Repository</h5>A repository is a central file storage location. It is used by version control systems to store multiple versions of files.
@@ -98,3 +94,10 @@ pull | git pull origin master | fetches a copy of the master branch from the ori
 status | git status | the status of the working working directory is displayed
 remove | git rm filename | will remove the file or repo called "filename" from the commit list and the filesystem.
 show | git show | one or more object will be displayed upon request 
+
+
+<h3>Resources</h3>
+
+GitFlow: https://datasift.github.io/gitflow/IntroducingGitFlow.html <br>
+definitions : https://www.atlassian.com/git/tutorials/ <br>
+usage of git, docker, etc.. definitions : https://searchsoftwarequality.techtarget.com/definition/ <br>
