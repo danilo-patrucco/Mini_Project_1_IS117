@@ -20,6 +20,7 @@ Parallel development means that multiple people can all work on the same project
 
 <h5>Complete GitFlow process</h5>
 New development (new features, non-emergency bug fixes) are built in feature branches<br><br>
+
 ![GitFlow Image1](images/feature_branch_1.png) 
 
 <br>Feature branches are branched off of the develop branch, and finished features and fixes are merged back into the develop branch when they’re ready for release:<br><br>
