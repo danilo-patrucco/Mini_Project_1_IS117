@@ -9,6 +9,7 @@
 All together these software / practices allow a company to constantly monitor and optimize deployment and upgrading of software, reducing the amount of people and time needed to perform tasks.
 <br>The final goal is a complete process atomization and reaching a state of instant development and deployment control.
 
+
 <h3>How does GitFlow works:</h3>
 
 First of all, what is the Gitflow:
@@ -50,10 +51,10 @@ They are branched directly from a tagged release in the master branch, and when 
 
 <h5>Repository</h5>A repository is a central file storage location. It is used by version control systems to store multiple versions of files.
 <br>To create a Git repository users are required to follow these steps are :<br>
-- Once git is installed go in the directory where the files that require version control are located.
-- Type in the terminal "git init" to initialize the file that will contain the references of what need to be saved.
-- To add all the files in the selected folder to the commit the user will have to type "git add .
-- The last step to create a repository is to commit the changes (save all the changes made to the repository), to do that the user will have to type the following: git committ -m "your_commit_name"
+- Once git is installed go in the directory where the files that require version control are located.<br>
+- Type in the terminal "git init" to initialize the file that will contain the references of what need to be saved.<br>
+- To add all the files in the selected folder to the commit the user will have to type "git add .<br>
+- The last step to create a repository is to commit the changes (save all the changes made to the repository), to do that the user will have to type the following: git committ -m "your_commit_name"<br>
 
 <h5>Clone</h5> git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository.
 
@@ -97,3 +98,13 @@ pull | git pull origin master | fetches a copy of the master branch from the ori
 status | git status | the status of the working working directory is displayed
 remove | git rm filename | will remove the file or repo called "filename" from the commit list and the filesystem.
 show | git show | one or more object will be displayed upon request 
+
+<h3>Version Control</h3>
+
+Version nr. | Comments | Date | Initials
+------------ | ------------- | ------------- | -------------
+1.0.0 | Creation of the readme file | 10/20/2019 | DP
+1.1.0 | Definitions populated | 10/22/2019 | DP
+1.2.0 | Added GitFlow explanation | 10/26/2019 | DP
+1.3.0 | Added Git commands table | 10/26/2019 | DP
+1.4.0 | Added Initial git, Docker paragraph with descriptions | 10/26/2019 | DP
