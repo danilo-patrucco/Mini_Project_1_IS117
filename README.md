@@ -108,3 +108,8 @@ Version nr. | Comments | Date | Initials
 1.2.0 | Added GitFlow explanation | 10/26/2019 | DP
 1.3.0 | Added Git commands table | 10/26/2019 | DP
 1.4.0 | Added Initial git, Docker paragraph with descriptions | 10/26/2019 | DP
+
+Resources
+GitFlow: https://datasift.github.io/gitflow/IntroducingGitFlow.html
+definitions : https://www.atlassian.com/git/tutorials/
+usage of git, docker, etc.. definitions : https://searchsoftwarequality.techtarget.com/definition/
