@@ -110,6 +110,8 @@ Version nr. | Comments | Date | Initials
 1.4.0 | Added Initial git, Docker paragraph with descriptions | 10/26/2019 | DP
 
 Resources
-GitFlow: https://datasift.github.io/gitflow/IntroducingGitFlow.html
-definitions : https://www.atlassian.com/git/tutorials/
-usage of git, docker, etc.. definitions : https://searchsoftwarequality.techtarget.com/definition/
+GitFlow: https://datasift.github.io/gitflow/IntroducingGitFlow.html <br>
+definitions : https://www.atlassian.com/git/tutorials/ <br>
+usage of git, docker, etc.. definitions : https://searchsoftwarequality.techtarget.com/definition/ <br>
+
+Project by Danilo Patrucco
